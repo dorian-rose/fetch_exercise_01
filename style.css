@@ -1,0 +1,23 @@
+.select-container {
+  margin: 45px;
+}
+
+#dataSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: fit-content;
+  gap: 5px;
+  margin: 40px;
+}
+
+#dataSection > * {
+  text-align: center;
+}
+img {
+  height: 40px;
+  margin: auto;
+}
+
+#page-number-container {
+  margin: auto;
+}
